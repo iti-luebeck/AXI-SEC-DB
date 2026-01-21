@@ -46,7 +46,7 @@ This dataset enables reproducible research on:
 # Clone the repository
 git clone https://github.com/iti-luebeck/AXI-SEC-DB.git
 cd AXI-SEC-DB
-
+```
 ---
 
 ## 📊 Dataset Description
@@ -364,14 +364,9 @@ We thank the following for their contributions:
 ## ⚠️ Known Limitations
 
 1. **Attack Diversity**: Dataset focuses on availability violations (DoS). Confidentiality and integrity attacks are not included.
-
 2. **Platform-Specific**: Data collected from Chipyard RISC-V SoC on ZCU104. Transferability to other platforms may require validation.
-
-3. **Synthetic Attacks**: Malicious samples are systematically synthesized rather than captured from real-world exploits.
-
-4. **Temporal Coverage**: Normal traffic captured during standard Linux runtime. May not represent all application scenarios.
-
-5. **Attack Combinations**: Mixed attack patterns represent limited combinations. Exhaustive attack vector space not fully explored.
+3. **Temporal Coverage**: Normal traffic captured during standard Linux runtime. May not represent all application scenarios.
+4. **Attack Combinations**: Mixed attack patterns represent limited combinations. Exhaustive attack vector space not fully explored.
 
 See our paper's "Limitations and Future Work" section for detailed discussion.
 
