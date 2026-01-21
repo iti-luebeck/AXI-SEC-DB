@@ -1,0 +1,77 @@
+# CITATION.cff - Citation File Format
+
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "AXI-SEC-DB: AXI Protocol Security Dataset for Hardware Monitoring Systems"
+authors:
+  - family-names: Foudhaili
+    given-names: Wadid
+    affiliation: "Institute of Computer Engineering, Universität zu Lübeck"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Replace with actual ORCID
+  - family-names: Rencber
+    given-names: Aykut
+    affiliation: "Institute of Computer and Network Engineering, TU Braunschweig"
+  - family-names: Nechi
+    given-names: Anouar
+    affiliation: "Institute of Computer Engineering, Universität zu Lübeck"
+  - family-names: Buchty
+    given-names: Rainer
+    affiliation: "Institute of Computer Engineering, Universität zu Lübeck"
+  - family-names: Berekovic
+    given-names: Mladen
+    affiliation: "Institute of Computer Engineering, Universität zu Lübeck"
+  - family-names: Gomez
+    given-names: Andres
+    affiliation: "Institute of Computer and Network Engineering, TU Braunschweig"
+  - family-names: Mulhem
+    given-names: Saleh
+    affiliation: "Institute of Computer Engineering, Universität zu Lübeck"
+repository-code: "https://github.com/iti-luebeck/AXI-SEC-DB"
+url: "https://github.com/iti-luebeck/AXI-SEC-DB"
+abstract: >-
+  The first public dataset for protocol-level security research on AXI bus 
+  transactions in System-on-Chip (SoC) architectures. This dataset contains 
+  19,625 AXI transaction samples (16,383 normal and 3,242 malicious) collected 
+  from a Chipyard RISC-V SoC on AMD Zynq UltraScale+ ZCU104 FPGA. The dataset 
+  includes three critical attack scenarios: illegal burst configurations, 
+  transaction ID exploits, and QoS signal flooding. Data is provided in 
+  multiple formats (ILA, VCD, CSV, NPY) to support reproducible research in 
+  hardware security and machine learning-based anomaly detection.
+keywords:
+  - AXI protocol
+  - hardware security
+  - SoC security
+  - denial-of-service
+  - machine learning
+  - anomaly detection
+  - FPGA
+  - RISC-V
+  - protocol violations
+  - embedded systems
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2026-01-21"
+references:
+  - type: article
+    authors:
+      - family-names: Foudhaili
+        given-names: Wadid
+      - family-names: Rencber
+        given-names: Aykut
+      - family-names: Nechi
+        given-names: Anouar
+      - family-names: Buchty
+        given-names: Rainer
+      - family-names: Berekovic
+        given-names: Mladen
+      - family-names: Gomez
+        given-names: Andres
+      - family-names: Mulhem
+        given-names: Saleh
+    title: "IMS: Intelligent Hardware Monitoring System for Secure SoCs"
+    year: 2026
+    conference:
+      name: "Design, Automation & Test in Europe Conference (DATE)"
+    doi: "10.48550/arXiv.2601.11447"
+    url: "https://arxiv.org/abs/2601.11447"
